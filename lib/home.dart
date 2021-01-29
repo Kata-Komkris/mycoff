@@ -13,9 +13,9 @@ class _HomeState extends State<Home> {
   void initState() {
     super.initState();
     Timer(
-        Duration(seconds: 4),
+        Duration(seconds: 1),
         () => Navigator.push(
-            context, MaterialPageRoute(builder: (context) => OwnerLogin())));
+            context, MaterialPageRoute(builder: (context) =>  OwnerLogin())));
   }
 
   @override
